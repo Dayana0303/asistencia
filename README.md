@@ -6,7 +6,7 @@ Sistema sencillo para administrar empleados y registrar entradas/salidas con cé
 1. Copie la carpeta del proyecto a `htdocs` (XAMPP) o `www`.
 2. En phpMyAdmin, importe `sql/database.sql`.
 3. Revise `config/db.php` (usuario y contraseña de MySQL).
-4. Abra `http://localhost/asistencia/crear_admin.php` una sola vez y luego **elimine** ese archivo.
+4. Abra una sola vez http://localhost/asistencia/crear_admin.php (crea el administrador).
 5. Ingrese a `http://localhost/asistencia/admin/login.php` con `admin` / `Admin123` (cambie la contraseña).
 
 ## Rutas
