@@ -24,6 +24,7 @@ $flash = flash_get();
         <li class="nav-item"><a class="nav-link <?= $pagina==='dashboard.php'?'active':'' ?>" href="dashboard.php">Dashboard</a></li>
         <li class="nav-item"><a class="nav-link <?= in_array($pagina,['empleados.php','empleado_form.php'])?'active':'' ?>" href="empleados.php">Empleados</a></li>
         <li class="nav-item"><a class="nav-link <?= $pagina==='asistencias.php'?'active':'' ?>" href="asistencias.php">Asistencias</a></li>
+        <li class="nav-item"><a class="nav-link <?= $pagina==='reporte_horas.php'?'active':'' ?>" href="reporte_horas.php">Reporte de horas</a></li>
         <li class="nav-item"><a class="nav-link" href="../index.php" target="_blank">Pantalla de marcación</a></li>
       </ul>
       <span class="navbar-text me-3">Hola, <?= e($_SESSION['admin_nombre']) ?></span>
